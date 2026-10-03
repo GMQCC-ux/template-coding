@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasets
+data/
+dataset/
+datasets/
+ISIC2017/
+ISIC2018/
+
+# Training outputs
+checkpoints/
+checkpoint/
+weights/
+runs/
+logs/
+outputs/
+results/
+save/
+saved/
+predictions/
+vis/
+wandb/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# Large generated files
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Temporary
+tmp/
+temp/
